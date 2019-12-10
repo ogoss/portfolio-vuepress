@@ -12,16 +12,10 @@
         "external": false
       },
       {
-        "text": "Instagram",
-        "link": "https://www.instagram.com/its.nwa",
+        "text": "Directory",
+        "link": "/directory/",
         "position": "left",
-        "external": true
-      },
-      {
-        "text": "Say hi!",
-        "link": "mailto:sayhi@mydomain.com",
-        "position": "right",
-        "external": true
+        "external": false
       },
       {
         "text": "Journal",

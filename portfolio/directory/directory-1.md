@@ -1,14 +1,14 @@
 ---
-title: Project one
+title: Directory one
 date: 2018-08-01 00:00:00 +0000
 thumbnail: "/upload/photo-1490013616775-3ca8865fb129.jpeg"
-year: 2019
+year: 2018
 categories:
 - print
-description: subtitle
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ---
-# Project one
+# Directory one
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 

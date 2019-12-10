@@ -27,11 +27,21 @@
 
       <!-- Journal list -->
       <div v-if="$route.path === '/journal/'" class="journal-list">
-        <Content />
+        <Content/>
       </div>
 
       <!-- Single journal -->
       <div v-if="isSingleJournal" class="single-journal">
+        <Content/>
+      </div>
+
+      <!-- Directory list -->
+      <div v-if="$route.path === '/directory/'" class="directory-list">
+        <Content/>
+      </div>
+
+      <!-- Single directory -->
+      <div v-if="isSingleDirectory" class="single-directory">
         <Content/>
       </div>
 
@@ -56,6 +66,13 @@
         const journalRoute = '/journal/'
         const path = this.$route.path
         if (path.includes('journal') && path.length >= (journalRoute.length + 1)) {
+          return true
+        }
+      },
+      isSingleDirectory() {
+        const directoryRoute = '/directory/'
+        const path = this.$route.path
+        if (path.includes('directory') && path.length >= (directoryRoute.length + 1)) {
           return true
         }
       }
